@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Enum\" />
+    <None Remove="Interface\" />
+    <None Remove="Model\" />
+    <None Remove="Model\Local\" />
+    <None Remove="Model\Static\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enum\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Model\" />
+    <Folder Include="Model\Local\" />
+    <Folder Include="Model\Static\" />
+  </ItemGroup>
+</Project>
